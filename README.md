@@ -39,14 +39,12 @@ graph LR
         F -->|Process| G[PostgreSQL / Redis]
         G -->|REST API| H[Frontend / Dashboard]
     end
-
----
+```
 
 ### 第二部分：開發階段說明 (Stage 1 & Stage 2)
 
 這部分詳細說明了如何利用你手邊的 Mac Pro M2 進行「復健」與開發。
 
-```markdown
 ## 階段性實作目標 (Development Roadmap)
 
 ### 🟢 Stage 1: Local Simulation & Logic Validation (現行階段)
@@ -107,3 +105,4 @@ graph LR
 │   ├── k8s/                # K8s Manifests (Deployment, Service)
 │   └── docker-compose.yml  # 本地開發測試環境
 └── README.md
+```
